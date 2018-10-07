@@ -4,6 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import jQuery from 'jquery'
+window.jQuery = jQuery
+window.$ = jQuery
+
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
