@@ -8,8 +8,10 @@ import jQuery from 'jquery'
 window.jQuery = jQuery
 window.$ = jQuery
 
+import LibGlobal from './lib-global'
 
 Vue.config.productionTip = false
+Vue.use(LibGlobal)
 
 /* eslint-disable no-new */
 new Vue({
