@@ -2572,12 +2572,12 @@ body {
   -webkit-tap-highlight-color: transparent; }
 
 .dropdown-toggle:after {
-  border: none;
-  width: auto;
-  height: auto;
-  margin-left: .6em;
-  content: '\f107';
-  font-family: FontAwesome; }
+  border: none !important;
+  width: auto !important;
+  height: auto !important;
+  margin-left: .6em !important;
+  content: '\f107' !important;
+  font-family: FontAwesome !important; }
 
 ul.nav {
   margin-left: 0; }
