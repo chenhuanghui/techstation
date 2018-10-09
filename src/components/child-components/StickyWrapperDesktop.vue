@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="site-branding">
                 <a href="home-v1.html" class="custom-logo-link" rel="home">
-                    Tech Station
+                    <img src="@/assets/images/logo.png" alt="">
                 </a>
                 <!-- /.custom-logo-link -->
                 </div>

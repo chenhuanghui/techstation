@@ -23,7 +23,7 @@
                                     <div class="bg-yamm-content bg-yamm-content-bottom bg-yamm-content-right">
                                         <div class="kc-col-container">
                                             <div class="kc_single_image">
-                                                <img src="assets/images/megamenu.jpg" class="" alt="" />
+                                                <img src="@/assets/images/megamenu.jpg" class="" alt="" />
                                             </div>
                                             <!-- .kc_single_image -->
                                         </div>
@@ -86,7 +86,7 @@
                                     <div class="bg-yamm-content bg-yamm-content-bottom bg-yamm-content-right">
                                         <div class="kc-col-container">
                                             <div class="kc_single_image">
-                                                <img src="assets/images/megamenu-1.jpg" class="" alt="" />
+                                                <img src="@/assets/images/megamenu-1.jpg" class="" alt="" />
                                             </div>
                                             <!-- .kc_single_image -->
                                         </div>
@@ -151,7 +151,7 @@
                                     <div class="bg-yamm-content bg-yamm-content-bottom bg-yamm-content-right">
                                         <div class="kc-col-container">
                                             <div class="kc_single_image">
-                                                <img src="assets/images/megamenu.jpg" class="" alt="" />
+                                                <img src="@/assets/images/megamenu.jpg" class="" alt="" />
                                             </div>
                                             <!-- .kc_single_image -->
                                         </div>
@@ -214,7 +214,7 @@
                                     <div class="bg-yamm-content bg-yamm-content-bottom bg-yamm-content-right">
                                         <div class="kc-col-container">
                                             <div class="kc_single_image">
-                                                <img src="assets/images/megamenu-1.jpg" class="" alt="" />
+                                                <img src="@/assets/images/megamenu-1.jpg" class="" alt="" />
                                             </div>
                                             <!-- .kc_single_image -->
                                         </div>
@@ -279,7 +279,7 @@
                                     <div class="bg-yamm-content bg-yamm-content-bottom bg-yamm-content-right">
                                         <div class="kc-col-container">
                                             <div class="kc_single_image">
-                                                <img src="assets/images/megamenu.jpg" class="" alt="" />
+                                                <img src="@/assets/images/megamenu.jpg" class="" alt="" />
                                             </div>
                                             <!-- .kc_single_image -->
                                         </div>
@@ -342,7 +342,7 @@
                                     <div class="bg-yamm-content bg-yamm-content-bottom bg-yamm-content-right">
                                         <div class="kc-col-container">
                                             <div class="kc_single_image">
-                                                <img src="assets/images/megamenu-1.jpg" class="" alt="" />
+                                                <img src="@/assets/images/megamenu-1.jpg" class="" alt="" />
                                             </div>
                                             <!-- .kc_single_image -->
                                         </div>
@@ -407,7 +407,7 @@
                                     <div class="bg-yamm-content bg-yamm-content-bottom bg-yamm-content-right">
                                         <div class="kc-col-container">
                                             <div class="kc_single_image">
-                                                <img src="assets/images/megamenu.jpg" class="" alt="" />
+                                                <img src="@/assets/images/megamenu.jpg" class="" alt="" />
                                             </div>
                                             <!-- .kc_single_image -->
                                         </div>
@@ -548,7 +548,7 @@
                                         <li class="woocommerce-mini-cart-item mini_cart_item">
                                             <a href="#" class="remove" aria-label="Remove this item" data-product_id="65" data-product_sku="">×</a>
                                             <a href="single-product-sidebar.html">
-                                                <img src="assets/images/products/mini-cart1.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">XONE Wireless Controller&nbsp;
+                                                <img src="@/assets/images/products/mini-cart1.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">XONE Wireless Controller&nbsp;
                                             </a>
                                             <span class="quantity">1 ×
                                                 <span class="woocommerce-Price-amount amount">
@@ -558,7 +558,7 @@
                                         <li class="woocommerce-mini-cart-item mini_cart_item">
                                             <a href="#" class="remove" aria-label="Remove this item" data-product_id="27" data-product_sku="">×</a>
                                             <a href="single-product-sidebar.html">
-                                                <img src="assets/images/products/mini-cart2.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">Gear Virtual Reality 3D with Bluetooth Glasses&nbsp;
+                                                <img src="@/assets/images/products/mini-cart2.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">Gear Virtual Reality 3D with Bluetooth Glasses&nbsp;
                                             </a>
                                             <span class="quantity">1 ×
                                                 <span class="woocommerce-Price-amount amount">
@@ -592,6 +592,9 @@
 
 <script>
 export default {
-  
+    name: 'NavigatorDesktop',
+    data() {
+        
+    }
 }
 </script>
